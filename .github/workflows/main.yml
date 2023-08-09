@@ -21,7 +21,7 @@ jobs:
         with:
           args: --follow-symlinks --exclude '.git/*' --exclude '.github/*'
         env:
-          AWS_S3_BUCKET: healthconnect-dev.medbeat.ai
+          AWS_S3_BUCKET: testing-amazon-cloudfront-secure-sta-s3bucketroot-xitd3nnoacrt
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: ap-south-1
